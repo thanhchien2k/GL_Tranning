@@ -22,7 +22,10 @@ class Globals
 {
 public:
 	static int Globals::screenWidth;
+	static bool Globals::statusDan;
 	static int Globals::screenHeight;
+	static bool Globals::statusMusic;
+	static bool Globals::statusSound;
 };
 
 // define value

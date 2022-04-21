@@ -1,0 +1,100 @@
+﻿  Application.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xutility(149,77): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\memory(2014): message : see reference to function template instantiation 'void std::_Construct_in_place<_Ty,int,int,int&,int,int&,float,float,float>(_Ty &,int &&,int &&,int &,int &&,int &,float &&,float &&,float &&) noexcept(false)' being compiled
+          with
+          [
+              _Ty=Camera
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\memory(2726): message : see reference to function template instantiation 'std::_Ref_count_obj2<_Ty>::_Ref_count_obj2<int,int,int&,int,int&,float,float,float>(int &&,int &&,int &,int &&,int &,float &&,float &&,float &&)' being compiled
+          with
+          [
+              _Ty=Camera
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\memory(2726): message : see reference to function template instantiation 'std::_Ref_count_obj2<_Ty>::_Ref_count_obj2<int,int,int&,int,int&,float,float,float>(int &&,int &&,int &,int &&,int &,float &&,float &&,float &&)' being compiled
+          with
+          [
+              _Ty=Camera
+          ]
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\Application.cpp(20): message : see reference to function template instantiation 'std::shared_ptr<Camera> std::make_shared<Camera,int,int,int&,int,int&,float,float,float>(int &&,int &&,int &,int &&,int &,float &&,float &&,float &&)' being compiled
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xutility(149,77): warning C4244: 'argument': conversion from '_Ty' to 'GLfloat', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+  ResourceManagers.cpp
+  Font.cpp
+  GameButton.cpp
+  ShipObject.cpp
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameObject\ShipObject.h(8,27): warning C4584: 'ShipObject': base-class 'BaseObject' is already a base-class of 'Sprite2D'
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameObject\BaseObject.h(9): message : see declaration of 'BaseObject'
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameObject\Sprite2D.h(4): message : see declaration of 'Sprite2D'
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameObject\ShipObject.h(8,27): warning C4584: 'ShipObject': base-class 'BaseObject' is already a base-class of 'SpriteAnimation'
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameObject\BaseObject.h(9): message : see declaration of 'BaseObject'
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameObject\SpriteAnimation.h(3): message : see declaration of 'SpriteAnimation'
+  Sprite2D.cpp
+  Camera.cpp
+  Sprite3D.cpp
+  Model.cpp
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameObject\Model.cpp(25,18): warning C4244: 'initializing': conversion from 'std::streamoff' to 'size_t', possible loss of data
+  Shader.cpp
+  SpriteAnimation.cpp
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameObject\SpriteAnimation.cpp(95,39): warning C4244: 'argument': conversion from 'GLint' to 'GLfloat', possible loss of data
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameObject\SpriteAnimation.cpp(100,39): warning C4244: 'argument': conversion from 'GLint' to 'GLfloat', possible loss of data
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameObject\SpriteAnimation.cpp(105,39): warning C4244: 'argument': conversion from 'GLint' to 'GLfloat', possible loss of data
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameObject\SpriteAnimation.cpp(110,39): warning C4244: 'argument': conversion from 'GLint' to 'GLfloat', possible loss of data
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameObject\SpriteAnimation.cpp(138,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameObject\SpriteAnimation.cpp(139,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameObject\SpriteAnimation.cpp(149,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameObject\SpriteAnimation.cpp(150,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Text.cpp
+  Texture.cpp
+  GameStateBase.cpp
+  GameStateMachine.cpp
+  GSIntro.cpp
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameStates\GSIntro.cpp(20,86): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameStates\GSIntro.cpp(20,52): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+  GSMenu.cpp
+  GSPlay.cpp
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameStates\GSPlay.cpp(35,92): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameStates\GSPlay.cpp(35,58): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameStates\GSPlay.cpp(39,97): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameStates\GSPlay.cpp(39,59): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameStates\GSPlay.cpp(188,26): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameStates\GSPlay.cpp(188,23): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameStates\GSPlay.cpp(224,52): warning C4244: 'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameStates\GSPlay.cpp(224,37): warning C4244: 'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameStates\GSPlay.cpp(228,53): warning C4244: 'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameStates\GSPlay.cpp(228,38): warning C4244: 'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameStates\GSPlay.cpp(261,34): warning C4244: 'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameStates\GSPlay.cpp(261,26): warning C4244: 'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameStates\GSPlay.cpp(274,34): warning C4244: 'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameStates\GSPlay.cpp(274,26): warning C4244: 'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xutility(149,77): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\memory(2014): message : see reference to function template instantiation 'void std::_Construct_in_place<_Ty,std::shared_ptr<Shader>&,std::shared_ptr<Font>&,const char(&)[7],TextColor,double>(_Ty &,std::shared_ptr<Shader> &,std::shared_ptr<Font> &,const char (&)[7],TextColor &&,double &&) noexcept(false)' being compiled
+          with
+          [
+              _Ty=Text
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\memory(2726): message : see reference to function template instantiation 'std::_Ref_count_obj2<_Ty>::_Ref_count_obj2<std::shared_ptr<Shader>&,std::shared_ptr<Font>&,const char(&)[7],TextColor,double>(std::shared_ptr<Shader> &,std::shared_ptr<Font> &,const char (&)[7],TextColor &&,double &&)' being compiled
+          with
+          [
+              _Ty=Text
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\memory(2726): message : see reference to function template instantiation 'std::_Ref_count_obj2<_Ty>::_Ref_count_obj2<std::shared_ptr<Shader>&,std::shared_ptr<Font>&,const char(&)[7],TextColor,double>(std::shared_ptr<Shader> &,std::shared_ptr<Font> &,const char (&)[7],TextColor &&,double &&)' being compiled
+          with
+          [
+              _Ty=Text
+          ]
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameStates\GSPlay.cpp(80): message : see reference to function template instantiation 'std::shared_ptr<Text> std::make_shared<Text,std::shared_ptr<Shader>&,std::shared_ptr<Font>&,const char(&)[7],TextColor,double>(std::shared_ptr<Shader> &,std::shared_ptr<Font> &,const char (&)[7],TextColor &&,double &&)' being compiled
+  GSSetting.cpp
+  TrainingFramework.cpp
+  Previous IPDB not found, fall back to full compilation.
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  All 1976 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  TrainingFramework.vcxproj -> C:\Users\Asus\Desktop\namgui\GL_Tranning\BIN-Nvidia\TrainingFramework.exe

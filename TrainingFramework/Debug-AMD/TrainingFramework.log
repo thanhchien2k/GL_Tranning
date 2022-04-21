@@ -1,43 +1,21 @@
-﻿  BulletObject.cpp
-c1xx : fatal error C1083: Cannot open source file: 'BulletObject.cpp': No such file or directory
-  EnemiesObject.cpp
-c1xx : fatal error C1083: Cannot open source file: 'EnemiesObject.cpp': No such file or directory
-  ShipObject.cpp
-c1xx : fatal error C1083: Cannot open source file: 'ShipObject.cpp': No such file or directory
-  Application.cpp
-C:\Users\Asus\Desktop\MiniGameStarter\TrainingFramework\src\GameManager\ResourceManagers.h(13,10): fatal error C1083: Cannot open include file: 'soloud.h': No such file or directory
+﻿  Application.cpp
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameManager\ResourceManagers.h(13,10): fatal error C1083: Cannot open include file: 'soloud.h': No such file or directory
   ResourceManagers.cpp
-C:\Users\Asus\Desktop\MiniGameStarter\TrainingFramework\src\GameManager\ResourceManagers.h(13,10): fatal error C1083: Cannot open include file: 'soloud.h': No such file or directory
-  Font.cpp
-  GameButton.cpp
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameManager\ResourceManagers.h(13,10): fatal error C1083: Cannot open include file: 'soloud.h': No such file or directory
+  ShipObject.cpp
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameManager\ResourceManagers.h(13,10): fatal error C1083: Cannot open include file: 'soloud.h': No such file or directory
   Sprite2D.cpp
-  Camera.cpp
-  Sprite3D.cpp
-  Model.cpp
-C:\Users\Asus\Desktop\MiniGameStarter\TrainingFramework\src\GameObject\Model.cpp(25,18): warning C4244: 'initializing': conversion from 'std::streamoff' to 'size_t', possible loss of data
-  Shader.cpp
-  SpriteAnimation.cpp
-C:\Users\Asus\Desktop\MiniGameStarter\TrainingFramework\src\GameObject\SpriteAnimation.cpp(95,39): warning C4244: 'argument': conversion from 'GLint' to 'GLfloat', possible loss of data
-C:\Users\Asus\Desktop\MiniGameStarter\TrainingFramework\src\GameObject\SpriteAnimation.cpp(100,39): warning C4244: 'argument': conversion from 'GLint' to 'GLfloat', possible loss of data
-C:\Users\Asus\Desktop\MiniGameStarter\TrainingFramework\src\GameObject\SpriteAnimation.cpp(105,39): warning C4244: 'argument': conversion from 'GLint' to 'GLfloat', possible loss of data
-C:\Users\Asus\Desktop\MiniGameStarter\TrainingFramework\src\GameObject\SpriteAnimation.cpp(110,39): warning C4244: 'argument': conversion from 'GLint' to 'GLfloat', possible loss of data
-C:\Users\Asus\Desktop\MiniGameStarter\TrainingFramework\src\GameObject\SpriteAnimation.cpp(138,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Asus\Desktop\MiniGameStarter\TrainingFramework\src\GameObject\SpriteAnimation.cpp(139,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Asus\Desktop\MiniGameStarter\TrainingFramework\src\GameObject\SpriteAnimation.cpp(149,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Asus\Desktop\MiniGameStarter\TrainingFramework\src\GameObject\SpriteAnimation.cpp(150,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  Text.cpp
-  Texture.cpp
   GameStateBase.cpp
-C:\Users\Asus\Desktop\MiniGameStarter\TrainingFramework\src\GameManager\ResourceManagers.h(13,10): fatal error C1083: Cannot open include file: 'soloud.h': No such file or directory
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameManager\ResourceManagers.h(13,10): fatal error C1083: Cannot open include file: 'soloud.h': No such file or directory
   GameStateMachine.cpp
-C:\Users\Asus\Desktop\MiniGameStarter\TrainingFramework\src\GameManager\ResourceManagers.h(13,10): fatal error C1083: Cannot open include file: 'soloud.h': No such file or directory
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameManager\ResourceManagers.h(13,10): fatal error C1083: Cannot open include file: 'soloud.h': No such file or directory
   GSIntro.cpp
-C:\Users\Asus\Desktop\MiniGameStarter\TrainingFramework\src\GameManager\ResourceManagers.h(13,10): fatal error C1083: Cannot open include file: 'soloud.h': No such file or directory
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameManager\ResourceManagers.h(13,10): fatal error C1083: Cannot open include file: 'soloud.h': No such file or directory
   GSMenu.cpp
-C:\Users\Asus\Desktop\MiniGameStarter\TrainingFramework\src\GameManager\ResourceManagers.h(13,10): fatal error C1083: Cannot open include file: 'soloud.h': No such file or directory
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameManager\ResourceManagers.h(13,10): fatal error C1083: Cannot open include file: 'soloud.h': No such file or directory
   GSPlay.cpp
-C:\Users\Asus\Desktop\MiniGameStarter\TrainingFramework\src\GameManager\ResourceManagers.h(13,10): fatal error C1083: Cannot open include file: 'soloud.h': No such file or directory
-  Generating Code...
-  Compiling...
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameManager\ResourceManagers.h(13,10): fatal error C1083: Cannot open include file: 'soloud.h': No such file or directory
+  GSSetting.cpp
+C:\Users\Asus\Desktop\namgui\GL_Tranning\TrainingFramework\src\GameManager\ResourceManagers.h(13,10): fatal error C1083: Cannot open include file: 'soloud.h': No such file or directory
   TrainingFramework.cpp
   Generating Code...

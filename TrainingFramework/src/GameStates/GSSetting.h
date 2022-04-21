@@ -24,4 +24,7 @@ private:
 	std::shared_ptr<Sprite2D> m_background;
 	float	m_time;
 	std::list<std::shared_ptr<GameButton>>	m_listButton;
+	std::shared_ptr<GameButton> soundOn, soundOff;
+	std::shared_ptr<GameButton> musicOn, musicOff;
+	std::string music_name = "space-asteroids.wav";
 };

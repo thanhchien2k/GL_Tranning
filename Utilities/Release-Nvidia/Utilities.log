@@ -1,0 +1,6 @@
+﻿  esShader.cpp
+  esUtil.cpp
+  esUtil_win.cpp
+  CMath.cpp
+  TGA.cpp
+  Utilities.vcxproj -> C:\Users\Asus\Desktop\namgui\GL_Tranning\BIN-Nvidia\Utilities.lib

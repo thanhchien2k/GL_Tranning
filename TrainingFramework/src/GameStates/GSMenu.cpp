@@ -58,7 +58,7 @@ void GSMenu::Init()
 	m_textGameName = std::make_shared< Text>(shader, font, "Space War", Vector4(1.0f, 1.0f, 1.0f, 1.0f), 3.0f);
 	m_textGameName->Set2DPosition(Vector2(200, 200));
 
-	std::string name = "Alarm01.wav";
+	std::string name = "space-asteroids.wav";
 	ResourceManagers::GetInstance()->PlaySound(name);
 }
 
